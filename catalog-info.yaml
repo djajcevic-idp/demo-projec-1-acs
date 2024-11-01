@@ -8,7 +8,7 @@ metadata:
     backstage.io/environment: dev
     'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/name=demo-projec-1-bff-bff'
     argocd/app-name: demo-projec-1-bff
-    sonarqube.org/project-key: default/demo-projec-1-bff
+    sonarqube.org/project-key: default/com.example:demo-projec-1-bff
   tags:
     - java
   links:
