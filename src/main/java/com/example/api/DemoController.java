@@ -20,6 +20,7 @@ import java.util.List;
 public class DemoController {
 
     private final UserRepo userRepo;
+    public static final String SOME_TOP_SECRET_PASSWORD = "123";
 
     public DemoController(UserRepo userRepo) {
         this.userRepo = userRepo;
